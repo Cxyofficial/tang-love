@@ -21,7 +21,7 @@ jobs:
         uses: actions/configure-pages@v3
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./  # 如果你想部署 dist、docs 文件夹，改这里
 
