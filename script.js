@@ -15,7 +15,7 @@ const noTexts = [
 ];
 
 // No 按钮点击事件
-noButton.addEventListener("click", function() {
+noButton。addEventListener("click", function() {
     clickCount++;
 
     // 让 Yes 变大，每次放大 2 倍
@@ -46,10 +46,10 @@ noButton.addEventListener("click", function() {
 });
 
 // Yes 按钮点击后，进入表白成功页面
-yesButton.addEventListener("click", function() {
+yesButton。addEventListener("click", function() {
     document.body.innerHTML = `
         <div class="yes-screen">
-            <h1 class="yes-text">!!!喜欢你!! ( >᎑<)♡︎ᐝ</h1>
+            <h1 class="yes-text">!!!傻子梁芯瑜!! ( >᎑<)♡︎ᐝ</h1>
             <img src="images/hug.png" alt="拥抱" class="yes-image">
         </div>
     `;
